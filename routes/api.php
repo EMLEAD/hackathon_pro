@@ -18,7 +18,7 @@ Route::get("/category/{id}", [CategoryController::class, "show"]);
 Route::put("/category/{id}", [CategoryController::class, "update"]);
 Route::delete("/category/{id}", [CategoryController::class, "destroy"]);
 
-
+// splash screen auth 
 Route::post("/splashscreen1", [SplashscreenController::class, 'storepage1']);
 Route::post("/splashscreen2", [SplashscreenController::class, 'storepage2']);
 Route::post("/splashscreen3", [SplashscreenController::class, 'storepage3']);
